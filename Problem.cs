@@ -19,8 +19,8 @@ namespace AdventOfCode2020
         public IEnumerable<string> Solve() 
         {
             if (Input == "") yield break;
-            yield return partOne();
-            yield return partTwo();
+            yield return PartOne();
+            yield return PartTwo();
         }
 
         protected string loadInput()
@@ -41,7 +41,7 @@ namespace AdventOfCode2020
             return _input;
         }
 
-        protected abstract string partOne();
-        protected abstract string partTwo();
+        protected abstract string PartOne();
+        protected abstract string PartTwo();
     }
 }

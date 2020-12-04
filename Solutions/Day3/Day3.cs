@@ -15,7 +15,7 @@ namespace AdventOfCode2020.Day3
             ).SkipLast(1).ToArray();
         }
 
-        protected override string partOne()
+        protected override string PartOne()
         {
             int mapWidth = map[0].Length;
             int mapHeight = map.Length;
@@ -28,7 +28,7 @@ namespace AdventOfCode2020.Day3
                 .ToString();
         }
 
-        protected override string partTwo()
+        protected override string PartTwo()
         {
             int mapWidth = map[0].Length;
             int mapHeight = map.Length;

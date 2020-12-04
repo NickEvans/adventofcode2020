@@ -17,7 +17,9 @@ namespace AdventOfCode2020
             foreach (var sol in solutions)
             {
                 int partNo = 1;
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"=== Day {sol.Day}: {sol.Title} ===");
+                Console.ForegroundColor = ConsoleColor.White;
 
                 var stringEnum = sol.Solve().GetEnumerator();
                 while (true)

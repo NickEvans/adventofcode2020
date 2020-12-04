@@ -25,7 +25,7 @@ namespace AdventOfCode2020.Day1
             }
         }
 
-        protected override string partOne() 
+        protected override string PartOne() 
         {
             foreach(int e in entries) 
             {
@@ -39,7 +39,7 @@ namespace AdventOfCode2020.Day1
             return "Error: No result found";
         }
 
-        protected override string partTwo() 
+        protected override string PartTwo() 
         {
              foreach(int i in entries)
             {

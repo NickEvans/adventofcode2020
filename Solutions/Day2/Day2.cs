@@ -17,14 +17,14 @@ namespace AdventOfCode2020.Day2
             );
         }
 
-        protected override string partOne()
+        protected override string PartOne()
         {
             return lines.Select(parsePassword)
                 .Count(p => isValidOne(p))
                 .ToString();
         }
 
-        protected override string partTwo()
+        protected override string PartTwo()
         {
             return lines.Select(parsePassword)
                 .Count(p => isValidTwo(p))
