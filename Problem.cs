@@ -18,7 +18,11 @@ namespace AdventOfCode2020
         
         public IEnumerable<string> Solve() 
         {
-            if (Input == "") yield break;
+            if (String.IsNullOrEmpty(Input))
+            {
+                Console.WriteLine("  Error: Input is null or empty");
+                yield break;
+            }
             yield return PartOne();
             yield return PartTwo();
         }
